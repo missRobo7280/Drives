@@ -1,0 +1,45 @@
+/*Question 3: Find the homeless 
+Problem Statement -:  There are N Homeless people in the community and N houses in the community. 
+It will be given in the array (people), the height of the person, and in the array house capacity of the house is given.
+
+The government decided to give homes to people on the basis of the following conditions:
+
+Priority is given to the people from left to right of the array
+Each person is allotted to a house if and only if the capacity of the house is greater than or equal to the person’s height
+Nearby empty Houses are allotted to the person( starting from the extreme left)
+You need to find the number of homeless people who have not been allotted any home if the government follows the above conditions.
+So that government will have an idea of how many people they need to allot homes for next time.*/
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main()
+{
+    int n;cin>>n;
+    int people[n],homes[n];
+    for(int i=0;i<n;i++)
+    {
+        cin>>people[i];
+    }
+    for(int i=0;i<n;i++)
+    {
+        cin>>homes[i];
+    }
+    int ans=0;
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            if(people[i]<homes[j])
+            {
+                ans++;
+                homes[j]=-1;
+                break;
+            }
+        }
+        
+    }
+    cout<<n-ans;
+}

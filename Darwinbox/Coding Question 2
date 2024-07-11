@@ -1,0 +1,26 @@
+//MAXIMUM REVENUE
+/* Problem statement : Amit is a salesman who wishes to know the maximum 
+revenue received from a given item of the N products each day . Amit has a sales record of N products for M days.Helo amit to find the highest revenue received each day.*/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int maxx(int arr[],int n)
+{
+    return *max_element(arr,arr+n);
+}
+
+int main()
+{
+    int n,m;
+    cin>>n>>m;
+    while(n--)
+    {
+        int a[m];
+        for(int i=0;i<m;i++)
+        {
+            cin>>a[i];
+        }
+        cout<<maxx(a,m)<<" ";
+    }
+}

@@ -1,0 +1,28 @@
+WHAT IS OS?
+--> OS is like a manager within the computer system that manages both the hardware and the software. It acts as an intermediary between the users and the complete hardware.It is responsible for 
+process management, resource management and memory and processor management  and file management and device management.
+It is also responsible for scheduling the processes by using various algorithms. It performs error detection and security.
+WHAT IS IPC?
+--> IPC stands for Inter Process Communication are mechanisms that helps various processes to manage the shared data. I allows different processes to communicate with each other and collaboratively 
+perform tasks while sharing common memory and resources.
+                    Pipes
+                    Message Queuing
+                    Semaphores
+                    Socket
+                    Shared Memory
+                    Signals
+WHAT IS THE MAIN PURPOSE OF OS?
+-->The main purpose of OS is to ensure a smooth functioning of the system by managing the hardware and software components of the system , memory ,processor management ,scheduling processes,etc.
+WHAT IS RAID?
+-->RAID stands for Redundant Array of Independent Disks. It is a technique used for creating backups of data by storing data iun multiple hard disks . Its main aim is to ensure data is redundant to 
+prevent the loss of data. There are seven levels of RAID from level 0 to 6
+WHAT IS GUI?
+It stands for Graphical User Interface that allows users to interact with the system using graphics.
+WHAT IS BOOTSTRAP PROGRAM IN OS?
+-->It is the first code that runs when the computer system  starts. It is the program that initializes the OS.It is fully stored in boot blocks at a fixed location on the disk.It is prsent in the ROM.
+WHAT IS KERNEL?
+-->kernel is the core of the operating system that controls and manages the whole system. As the CPU is to the hardwares analogously the kernel is to the software.
+WHAT IS BOOTING?
+ Six steps of the booting process are BIOS and Setup Program, The Power- On-Self-Test (POST), The Operating system Loads, System Configuration, System Utility Loads and Users Authentication.
+WHAT IS DEMAND PAGING?
+
